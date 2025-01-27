@@ -13,7 +13,7 @@ function Login() {
     axios
     .post('http://localhost:3001/login',{email,password})
     .then(result => {console.log(result)
-      if(result.data === "Success"){
+      if(result.data === "success"){
         navigate ('/home')
       }
     })
@@ -63,11 +63,11 @@ function Login() {
           </button>
           </form>
 
-          {/* Redirect to Signup */}
+          {/* Redirect to register */}
           <p className="text-center mt-3">
             Don't have an account?{" "}
-            <a href="/Signup" className="text-decoration-none">
-              Signup
+            <a href="/register" className="text-decoration-none">
+              Register
             </a>
           </p>
         
