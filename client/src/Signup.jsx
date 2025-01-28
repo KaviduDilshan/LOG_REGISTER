@@ -31,8 +31,8 @@ function Signup() {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
-      <div className="bg-white p-4 rounded shadow w-25">
+    <div className="d-flex justify-content-center align-items-center bg-light vh-100">
+      <div className="bg-white p-4 rounded shadow w-25 ">
         <h2 className="text-center mb-4">Register</h2>
 
         {/* Error Message */}
